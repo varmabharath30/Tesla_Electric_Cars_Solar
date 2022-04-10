@@ -1,0 +1,420 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway',sans-serif;
+    scroll-behavior: smooth;
+
+}
+a{
+    font-weight: bold;
+}
+.ModelS{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/1.jpg);
+    background-position:center;
+    background-size: cover;
+}
+nav{
+    position: fixed;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    
+  
+}
+
+
+nav ul {
+    flex: 1;
+    text-align: center;
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    /* padding: .5rem; */
+    color: rgb(50, 46, 46);
+    font-weight: bold;
+    
+    
+}
+.div{
+    background-color: gray;
+    height: 5px;
+    width: 80px;
+    margin-left: 260px;
+   cursor: pointer;
+
+}
+
+
+
+.sign{
+    color: black;
+    text-decoration: none;
+}
+
+.account{
+    color: black;
+    text-decoration: none;
+   
+}
+.menu{
+    color: black;
+    text-decoration: none;
+
+   
+}
+.menu a{
+    margin: 10px;
+    font-weight: normal;
+   
+    
+}
+
+.order{
+    text-align: center;
+    transform:translateY(100px)
+}
+.order h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.order p{
+    color: rgb(76, 71, 71);
+}
+.custom{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    transform:translateY(440px)
+}
+
+
+.custom span{
+   
+    background-color:rgba(23, 26, 32, 0.8);
+        color: white;
+        padding: 10px;
+       padding-left: 5%;
+       padding-right: 5%;
+       border: none;
+       border-radius: 20px;
+       cursor: pointer;
+       transition: 0.3s;
+       font-weight: normal;
+    
+    
+}
+.custom a{
+    justify-content: space-between;
+    text-decoration: none;
+    background-color:rgba(23, 26, 32, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-weight: normal;
+}
+button{
+
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.first{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    transform:translateY(420px);
+}
+
+
+
+.first a{
+    justify-content: space-between;
+    text-decoration: none;
+    background-color:rgba(23, 26, 32, 0.8);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    font-weight: normal;
+}
+#first1{
+
+    padding: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.img{
+    width: 10%;
+}
+
+.model3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.solar_panel{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.solar_roof{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/6.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.accessories{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/7.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.modelX{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.modelY{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/4.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.menu1{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+    position: fixed;
+}
+
+
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-family:  'Raleway',sans-serif;;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(81, 77, 77);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #000000;
+    transition: 0.3s;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .nav{
+     
+      display: none;
+  }
+
+  .content{
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.8rem;
+      padding-top: 110px
+  }
+ .shop{
+    transform: translateY(350px);
+    margin-left: 40%;
+
+ }
+ .shop span{
+     background-color: rgba(23, 26, 32, 1);
+     color: white;
+     padding: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+ 
+ }
+ .shop span:hover{
+    background-color: rgb(69, 65, 65)
+    
+
+}
+
+  footer{
+      height: 10vh;
+      width: 100%;
+      margin-top: 10px;
+      
+  }
+ .last{
+     margin-top: 20px;
+     text-align: center;
+ }
+    
+      
+  .last a{
+    margin: 10px;
+    color: rgb(86, 80, 80);
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 14px;
+  }
+  .last a:hover{
+      color: black;
+  }
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+
+  @media only screen and (min-width:450px){
+    
+    .nav{
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    nav{
+        display: none;
+    }
+    .ModelS{
+        height: 100vh;
+        width: 100%;
+        background-image: url(images/1.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+       background-size: cover;
+       
+    }
+    .custom{
+        display: grid;
+        
+    }
+   
+    
+    .custom a{
+        margin: 10px;
+        padding: 15px 80px 15px 80px;
+        
+    }
+    .custom button{
+        margin: 10px;
+        padding: 15px 80px 15px 80px;
+    }
+   .logo{
+       display: block;
+       cursor: pointer;
+   }
+   .order{
+    transform:translateY(150px)
+   }
+   .first{
+       transform: translateY(420px);
+       display: grid;
+   }
+   .first a{
+       margin: 10px;
+       padding: 15px 80px 15px 80px;
+   }
+   #first1{
+       margin: 10px;
+       padding: 15px 80px 15px 80px;
+   }
+   .nav{
+       display: block;
+       font-family:'Raleway',sans-serif;
+       font-weight: 100;
+       font-size: 1.3rem;
+       transform: translate(305px);
+       cursor: pointer;
+       background-color:hsla(0,0%,0%,.05);
+       padding: 5px;
+       margin-top: 5%;
+       border-radius: 10px;
+       position: fixed;
+
+   }
+   .last{
+       display: grid;
+   }
+  .shop{
+      margin-left: 120px;
+      transform: translateY(280px);
+  }
+  .content{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    padding-top: 190px
+}
+}
